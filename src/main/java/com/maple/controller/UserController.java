@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 
 
 @Controller
-@RequestMapping("")
 public class UserController {
     @Resource
     private IUserService userService;
