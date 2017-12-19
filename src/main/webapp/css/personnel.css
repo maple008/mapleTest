@@ -1,0 +1,138 @@
+.lists {
+	margin-bottom: 20px;
+}
+.lists table{
+	width: 95%;
+	margin: 0 auto;
+	border-top: #e6e6e6 solid 1px;
+	border-left: #e6e6e6 solid 1px;
+}
+.lists table tr{
+	width: 100%;
+}
+.lists table td{
+	width: 33%;
+	text-align: center;
+	font-size: 14px;
+	border-right: #e6e6e6 solid 1px;
+	border-bottom: #e6e6e6 solid 1px;
+}
+.listdet table tr{
+	height: 50px;
+}
+.listdet table tr td.canji{
+	height: 70px;
+	line-height: 35px;
+}
+.listdet table td{
+	width: 12%;
+}
+.listdet table td img{
+	width: 36px;
+	height: 36px;
+	margin: 5px 0;
+}
+.listdet table td.single{
+	width: 10%;
+	background: #f0f0f0;
+}
+.lists table td em{
+	display: inline-block;
+	line-height: 45px;
+}
+.lists table td span {
+	display: inline-block;
+	line-height: 45px;
+}
+.lists table td span.omit {
+	width: 200px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: bottom;
+}
+.lists table td span.omits{
+	width: 175px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: bottom;
+}
+.lists table td dfn{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+    vertical-align: middle;
+}
+.lists table td dfn.connImg{
+	width: 100px;
+	height: 70px;
+	padding: 10px 0;
+}
+.lists table td dfn.pics_zoom {
+	cursor: pointer;
+}
+.lists table td dfn img{
+	width: 100%;
+	vertical-align: middle;
+	vertical-align: baseline;
+	vertical-align: -moz-middle-with-baseline;
+	vertical-align: -webkit-baseline-middle;
+}
+.lists table td dfn.connImg img{
+	width: 100%;
+	height: 100%;
+}
+.lists table td.note {
+	text-align: left;
+	text-indent: 20px;
+	padding: 0 10px;
+}
+.lists table td.note em {
+	float: left;
+}
+.lists table td.note span {
+	display: block;
+}
+.lists table td.textareas {
+	padding: 0 10px;
+}
+.lists table td.textareas em {
+	float: left;
+	    text-indent: 20px;
+    
+}
+.lists table td.textareas span  {
+	display: block;
+	padding:10px 0 10px 110px;
+	height: 120px;
+	
+	box-sizing: border-box;
+}
+.lists table td.textareas span textarea {
+	width:100%;
+	height: 100px;
+	line-height: 26px;
+}
+.submit_btn {
+	height: 40px;
+	margin: 20px 0;
+	text-align: center;
+}
+.submit_btn span {
+	float: right;
+	padding-right: 20px;
+}
+.submit_btn a {
+	float: left;
+	padding: 0 20px;
+	height: 36px;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+	background: #33bce7;
+	margin-left: 33px;
+}
+.submit_btn a#cancel {
+	background: #e1e1e1;
+}

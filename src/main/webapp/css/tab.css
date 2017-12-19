@@ -1,0 +1,63 @@
+.orders_main {
+	overflow: hidden;
+}
+.food_nav {
+	height: 100px;
+	display: table;
+	width: 100%;
+	padding:10px 0 10px;
+	    margin-bottom: -24px;
+	box-sizing: border-box;
+	position: relative;
+}
+.orders_list {
+	height:640px;
+}
+.food_nav ul {
+	width: 100%;
+	height: 100px;
+}
+.food_nav ul li {
+    float: left;
+    width: 16.66667%;
+    position: relative;
+}
+.food_nav ul li a {
+	display: block;
+	text-align: center;
+}
+.food_nav ul li a i {
+	display: block;
+	width: 50px;
+	height: 50px;
+	padding: 15px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background: #33bce8;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.food_nav ul li a em {
+	display: block;
+	font-size: 16px;
+	color: #5d5d5d;
+	line-height: 30px;
+}
+.food_nav ul li>em {
+	display: block;
+	width: 30px;
+	height: 25px;
+	background: url(../images/public/roket.png) no-repeat center;
+	position: absolute;
+	left: 50%;
+	margin-left: -15px;
+	transition: all 200ms;
+	z-index: 99;
+}
+.food_nav ul li a img{
+	border: none;
+	width: 100%;
+}
+.food_nav ul li a img.delay{
+	width: 16%;
+}

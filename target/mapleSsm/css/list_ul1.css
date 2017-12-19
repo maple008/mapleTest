@@ -1,0 +1,398 @@
+
+.search {
+	height: 60px;
+	border: #e6e6e6 solid 1px;
+	margin-top: 5px;
+	padding: 12.5px 2%;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	    margin-bottom: 10px;
+}
+
+
+.curr_local i,
+.curr_local em,
+.curr_local b,
+.curr_local dfn {
+	font-size: 14px;
+	height: 35px;
+	color: #000;
+	line-height: 35px;
+}
+
+.curr_local em {
+	color: #33bce7;
+}
+
+.curr_local {
+	float: left;
+}
+.search_l {
+	float: right;
+    padding: 0 20px;
+}
+.btn {
+    float: left;
+    width: 73px;
+    height: 35px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    background: url(../images/pers/selects.png) no-repeat;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.lists {
+	float: left;
+	width: 30%;
+	min-width: 500px;
+	margin-bottom: 20px;
+}
+.lists>table {
+    width: 100%;
+   /* border: 1px solid #d2d2d2;*/
+    border-left: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+.lists>table tr td{
+	font-size: 14px;
+	border-right: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+	vertical-align: middle;
+	height: 40px;
+	text-align: center;
+	width: 21%;
+}
+.lists>table tr td:nth-child(odd){
+	width: 12%;
+	text-align: right;
+	background: #eeeeee;
+}
+.list_accon>table tr td{
+	border: #d2d2d2 solid 1px;
+}
+.lists>table tr em {
+	font-size: 14px;
+	width: 150px;
+	background: #f0f0f0;
+	color: #000;
+	text-align: center;
+	 border-left: 1px solid #d2d2d2;
+        border-right: 1px solid #d2d2d2;
+	box-sizing: border-box;
+	/* line-height: 40px; */
+	height: 40px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.lists>table tr {
+		border-bottom: 1px solid #d2d2d2;
+}
+.lists>table tr span {
+	width: 70%;
+    text-align: center;
+  font-size: 14px;
+    /* box-sizing: border-box; */
+    /* line-height: 40px; */
+    color: #000;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    word-break: break-all;
+}
+.lists>table tr span.ok {
+	color: #333;
+}
+.lists>table tr span.wating {
+	color: #F27F02;
+}
+.lists>table tr span.error {
+	color: #FF0000;
+}
+.lists table td.nur img{
+	width: 300px;
+	height: 150px;
+	padding: 10px 0;
+}
+.bases_xx,.other_xx,.pro_xx  {
+	padding:0 20%;
+	overflow: hidden;
+	background: #fff;
+}
+.accom_deta,.goods_deta,.other_deta{
+	padding: 0 5% 0% 5%;
+}
+.goods_detabut{
+	padding:  0 5% 10% 5%;
+}
+.comments_but{
+	padding-bottom: 5%;
+}
+.list_accon p{
+	line-height: 40px;
+	text-indent: 2em;
+	margin: 0px 0 0 0;
+	font-size: 14px;
+	background: #fff;
+}
+.bases_xx h5,.other_xx h5,.pro_xx h5 {
+	line-height:30px;
+	text-indent:20px;
+	font-size: 16px;
+	color: #5d8dea;
+	line-height:44px;
+	font-weight: bold;
+	background: url(../images/public/left_border.png) no-repeat 2px;
+}
+.list_accon p.evaluation{
+	text-align: left;
+}
+ table td img {
+    max-width: 100%;
+    /*height: 36px;*/
+    vertical-align: middle;
+}
+.pro_xx table {
+	width: 100%;
+	border: 1px solid #d2d2d2;
+	border-bottom: none;
+	border-right: none;
+}
+.pro_xx table tr th {
+	line-height: 40px;
+	vertical-align: middle;
+	border-bottom: 1px solid #d2d2d2;
+	border-right: 1px solid #d2d2d2;
+	text-align: center;
+	background: #f0f0f0;
+	font-size: 14px;
+}
+.pro_xx table tr td {
+	    line-height: 40px;
+	vertical-align: middle;
+	border-bottom: 1px solid #d2d2d2;
+	border-right: 1px solid #d2d2d2;
+	text-align: center;
+	font-size: 12px;
+}
+.bases_xx .lists {
+	width: 100%;
+	min-width: 600px;
+}
+.bases_xx .lists>ul li {
+	    border-bottom: 1px solid #d4d4d4;
+}
+.lists_row3 {
+	width: 100%;
+	padding:10px 20px;
+}
+.lists_row3>table {
+	width: 100%;
+}
+.lists_row3>table >tbody>tr>td {
+	width: 33.333%;
+	box-sizing: border-box;
+}
+.lists_row3>table >tbody>tr>td em {
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+}
+.lists_row3>table >tbody>tr>td .text,.lists_row3>table >tbody>tr>td p {
+	    padding-left: 70px;
+    /* float: left; */
+    display: block;
+    padding-right: 10%;
+}
+.texts {
+	display: block;padding-left: 70px;
+}
+.texts textarea {
+	width: 80%;
+	height: 74px;
+}
+.print_area {}
+.print_area h4 {
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+}
+.print_area .lists {
+	width: 100%;
+}
+.print_area .lists ul li {
+	float: left;
+	width: 25%;
+	min-width: 300px;
+}
+.lists.print_yj {
+	padding: 0;
+	    margin-top: -20px;
+}
+.lists.print_yj ul li{
+	width: auto;
+	float: right;
+}
+.lists.print_yj ul li span {
+	font-size: 16px;
+}
+input[type="button"] {
+	float: right;
+	margin-right: 10%;
+	padding:0 20px;
+	height:24px;
+	margin-top: 20px;
+}
+.lists_row3 table tr td p {
+    word-break: break-all;
+    text-indent: 10px;
+    line-height: 34px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.lists table td dfn {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+   display: table-cell;
+    width: 70%;
+    height: 36px;
+    vertical-align: middle;
+    padding: 8px 0;
+    padding-top: 2px;
+}
+.lists table td dfn.pics_zoom{
+	cursor: pointer;
+}
+.lists table td dfn img{
+	width: 100%;
+	height: 100%;
+    vertical-align: -webkit-baseline-middle;
+}
+.lists table td dfn.pics_zoom i {
+	float: left;
+	width: 50%;
+	padding:10px 10%;
+	box-sizing: border-box;
+	text-align: center;
+}
+.lists table td dfn img {
+	max-width: 100%;
+}
+.lists_jigou table{
+	border-left: 1px solid #D2D2D2;
+	/*border-bottom: 1px solid #D2D2D2;*/
+}
+.lists_jigou table tr{
+	border-right: 1px solid #D2D2D2;
+	border-top: 1px solid #D2D2D2;
+}
+.lists_jigou table tr td.back_one{
+	width: 20%;
+    background: #f0f0f0;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 40px;
+    height: auto;
+    border-right: 1px solid #D2D2D2;
+}
+.lists_jigou table tr td.back_two{
+	width: 30%;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 40px;
+    color: #333;
+}
+.lists_xinxi table tr td.back_one{
+	width: 7%;
+}
+
+.wrap_table td dfn.pics_zoom {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.other_xx input{
+	width: 300px;
+	height: 38px;
+	border: #cccccc solid 1px;
+}
+/*紧急救助订单*/
+.rescue{
+	width: 90%;
+	margin: 0 auto;
+	display: inline-block;
+	padding: 0 0 50px 35px;
+}
+.rescue_vide{
+	width: 350px;
+	height: 150px;
+	float: left;
+	border:#000000 solid 1px;
+}
+.rescue_but{
+	width: 91px;
+	height: 36px;
+	line-height: 36px;
+	background: url(../images/public/kaimen.png) no-repeat;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	float: left;
+	margin: 110px 0 10px 20px;
+}	
+/*健康服务订单--详情的图片*/
+.comments_img{
+	overflow: hidden;
+	padding-left: 28px;
+	background: #fff;
+}
+.comments_img b{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 1px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.comments_img b img{
+	width: 100%;
+}
+.context textarea{
+	width: 100%;
+	height: 80px;
+}
+.evaluation{
+	line-height: 45px;
+}
+.month_con{
+	width: 100%;
+	height: 80px;
+}
+.month_con p{
+	width: 60%;
+	text-align: right;
+	line-height: 80px;
+	font-size: 24px;
+	color: #010101;
+	float: left;
+}
+.month_con a{
+	width: 77px;
+	height: 35px;
+	float: right;
+	background: #33BCE7;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 20px;
+	cursor: pointer;
+}

@@ -1,0 +1,375 @@
+body {
+	padding: 0;
+	min-height: 200px;
+}
+
+.paidan {
+	overflow: hidden;
+}
+
+.paidan> p {
+	height: 40px;
+	background: #1bbc9b;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+.paidan ul {
+	overflow: hidden;
+	padding: 0 20px;
+}
+
+.paidan ul li {
+	width: 50%;
+	float: left;
+	height: 50px;
+	padding: 0 20px 0 40px;
+	box-sizing: border-box;
+}
+
+.paidan ul li label {
+	display: block;
+	height: 14px;
+	line-height: 14px;
+	padding: 18px 20px;
+}
+
+.paidan ul li input,
+.paidan ul li em,
+.paidan ul li i {
+	float: left;
+	font-size: 14px;
+	color: #333;
+	padding: 0 10px 0 20px;
+}
+
+.submit_btn {
+	height: 40px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.submit_btn span {
+	float: right;
+	padding-right: 20px;
+}
+
+.submit_btn a {
+	float: left;
+	padding: 0 20px;
+	height: 36px;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+	background: #33bce7;
+	margin-left: 33px;
+}
+
+.submit_btn a#cancel {
+	background: #e1e1e1;
+}
+
+
+/*线下下单页面*/
+
+.entry {
+	width: 97%;
+	margin: 10px auto;
+	background: #18293c;
+	height: auto;
+	min-height: 900px;
+	margin-bottom: 50px;
+}
+
+.entry_title {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.entry_title>ul {
+	width: 94%;
+	display: inline-block;
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding-left:6%;
+}
+.entry_s{
+	padding-bottom: 50px;
+}
+.entry_title>ul li {
+	float: left;
+	width: 25%;
+	height: 64px;
+	position: relative;
+	/*font-size: 18px;
+	line-height: 64px;
+	text-align: center;
+	color: #b5b4b4;*/
+}
+.entry_title>ul li span {
+	width: 65%;
+	height: 64px;
+	font-size: 18px;
+	line-height: 64px;
+	text-align: center;
+	color: #b5b4b4;
+	display: block;
+	background: url(../images/public/two.png) no-repeat left center;
+	background-size: 100%;
+	float: left;
+}
+.entry_title>ul li span.curr {
+	color: #FFFFFF;
+	background: url(../images/public/one.png) no-repeat left center;
+	background-size: 100%;
+}
+.entry_title>ul li dfn{
+	position: absolute;
+	background: url(../images/public/oneLeft.png) repeat-x center;
+	width: 35%;
+	height: 4px;
+	top: 48%;
+	float: left;
+	right: 0;
+	background-size: 100% 100%;
+}
+
+
+.tabOne{
+	width: 80%;
+    height: auto; 
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 6%;
+}
+#Tab1 {
+	width: 100%;
+	position: relative;
+	margin-top: 70px;
+	cursor: pointer;
+}
+
+.Menubox {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	position:absolute;
+	top: -50px;
+	left: 0;
+}
+
+.Menubox ul {
+	margin: 0px;
+	padding: 0px;
+}
+.Menubox li {
+	float: left;
+	display: block;
+	width: 120px;
+	font-size: 16px;
+	text-align: center;
+	color: #010101;
+	background: #eeeeee;
+	height:45px;
+	margin-top:5px;
+}
+
+.Menubox li.hover {
+	width: 120px;
+	color: #33bce7;
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+	z-index: 9999;
+	background: #18293c;
+	border-top: #d4d4d4 solid 1px;
+	border-left: #d4d4d4 solid 1px;
+	border-right: #d4d4d4 solid 1px;
+}
+
+.Menuboxtwo {
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.Menuboxtwo ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.Menuboxtwo li {
+	float: left;
+	display: block;
+	width: 20%;
+	font-size: 16px;
+	margin-right: 3%;
+	text-align: center;
+	color: #949694;
+	background: url(../img/bgh.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.Menuboxtwo li.hover {
+	width: 20%;
+	color: #739242;
+	height: 45px;
+	line-height: 50px;
+	position: relative;
+	z-index: 9999;
+	top: 1px;
+	background: url(../img/bgG.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.Contentbox {
+	background: #18293c;
+	top: 45px;
+	border: 1px solid #c3c3c3;
+	height: auto;
+	text-align: center;
+	padding-top: 8px;
+	width: 100%;
+}
+.conbox{
+	border: none;
+}
+.entryBtn{
+	width: 190px;
+	height: 35px;
+	
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+.enter{
+	margin-top: 0 !important;
+}
+.entryBtn a{
+	color: #FFFFFF;
+	width: 77px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	background: #33bce7;
+	text-align: center;
+	border-radius: 1px;
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.entryBtn a.prevPage{
+	margin-right: 10px;
+}
+.wrap_table table td.delEntry{
+	width: 25px;
+	height: 21px;
+}
+.wrap_table table td a.delEntry{
+	width: 25px;
+	height: 21px;
+	display: block;
+	background: url(../images/public/delEntry.png) no-repeat;
+	margin-left:20px;
+}
+.pro_xx h5{
+	display: block;
+	text-indent: 35px;
+	line-height: 35px;
+	float: left;
+	color: #33bce7;
+	background: url(../images/public/courier.png) no-repeat 17px;
+}
+.tableTop{
+	margin-bottom: 20px;
+	margin;0 2% 10px;
+}
+.tableTop table td.suanfa{
+	width:120px;
+	height: 50px;
+	padding: 0 10px;
+}
+.tableTop table td a{
+	width: 22px;
+	height: 22px;
+	float: left;
+}
+.tableTop table td.suanfa a.jian{
+	background: url(../images/public/jian.png) no-repeat center;
+	margin-left: 20px;
+}
+.tableTop table td.suanfa a.adds{
+	background: url(../images/public/addjia.png) no-repeat center;
+}
+.tableTop table td.suanfa b{
+	float: left;
+	margin:0 10px;
+}
+.tableTop table td.goumai{
+	border: none;
+	height: 30px !important;
+}
+.tableTop table td.goumai p{
+	width: 60%;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	text-align: left;
+	text-indent: 30px;
+	display: block;
+}
+.tableTop table td.goumai b{
+	width: 40px;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	text-align: left;
+	display: block;
+}
+
+.fw_xx{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+/*第四步---快递选择*/
+.Courier{
+	width: 97.5%;
+	height: auto;
+	padding-left: 2.5%;
+}
+.Courier div{
+	width: 30%;
+	float: left;
+	padding-right: 2.5%;
+}
+.Courier div p{
+	width: 125px;
+	height: 30px;
+	float: left;
+	background: url(../images/public/courier.png) no-repeat 5px;
+	display: block;
+	text-indent: 24px;
+	line-height: 26px;
+}
+.Courier div ul{
+	width: 100%;
+	height: auto;
+	min-height: 194px;
+	display: inline-block;
+	background: url(../images/public/courier_border.png) no-repeat;
+	background-size: 100% 100%;
+	padding:8px 0;
+}
+.Courier div ul li{
+	width: 22%;
+	margin: 2.5% 2% 2.5% 9%;
+	float: left;
+}
+

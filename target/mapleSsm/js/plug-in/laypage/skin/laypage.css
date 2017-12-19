@@ -1,0 +1,135 @@
+/*!
+ laypage默认样式
+*/
+
+.laypage_main a,
+.laypage_main input,
+.laypage_main span {
+	height: 26px;
+	line-height: 26px
+}
+
+.laypage_main button,
+.laypage_main input,
+.laypageskin_default a {
+	border: 1px solid #e6e6e6;
+	background-color: #fff
+}
+
+.laypage_main {
+	font-size: 0;
+	clear: both;
+	color: #666;
+	display: inline-block;
+}
+
+.laypage_main * {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	/*color: #fff;*/
+}
+.laypage_total label{
+	color:#fff;
+}
+.laypage_main a {
+	text-decoration: none;
+	    border-radius: 18px;
+	    box-sizing: border-box;
+	    height: 38px;
+	    line-height: 38px;
+	color: #000
+}
+
+.laypage_main a,
+.laypage_main span {
+	padding: 0 15px;
+	margin: 0 5px;
+}
+
+.laypage_main input {
+	    width: 60px;
+    margin: 0 5px;
+    padding: 0 5px;
+    height: 38px;
+    box-sizing: border-box;
+}
+
+.laypage_main button {
+	    height: 38px;
+    line-height: 38px;
+    margin-left: 5px;
+    padding: 0 15px;
+	color: #666
+}
+
+.laypageskin_default span {
+	height: 38px;
+	line-height: 38px;
+	color: #000;
+	/*background: #fff;
+	border: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	border-radius: 18px;*/
+}
+
+.laypageskin_default .laypage_curr {
+	/*font-weight: 700;*/
+	background: #0b2542;
+	padding:0 15px;
+	border: 1px solid #e6e6e6;
+	line-height: 38px;
+	height: 38px;
+	    border-radius: 18px;
+	    box-sizing: border-box;
+	color: #33bce7;
+}
+
+.laypageskin_molv a,
+.laypageskin_molv span {
+	padding: 0 12px;
+	border-radius: 2px
+}
+
+.laypageskin_molv a {
+	background-color: #f1eff0
+}
+
+.laypageskin_molv .laypage_curr {
+	background-color: #00AA91;
+	color: #fff
+}
+
+.laypageskin_molv input {
+	height: 24px;
+	line-height: 24px
+}
+
+.laypageskin_molv button {
+	height: 26px;
+	line-height: 26px
+}
+
+.laypageskin_yahei {
+	color: #333
+}
+
+.laypageskin_yahei a,
+.laypageskin_yahei span {
+	padding: 0 13px;
+	border-radius: 2px;
+	color: #333
+}
+
+.laypageskin_yahei .laypage_curr {
+	background-color: #333;
+	color: #fff
+}
+
+.laypageskin_flow {
+	text-align: center
+}
+
+.laypageskin_flow .page_nomore {
+	color: #999
+}

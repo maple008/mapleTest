@@ -1,0 +1,628 @@
+form {
+	height: 100%;
+}
+.w_input em {
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	color: #999;
+	position: absolute;
+	top:50%;
+	left: 10px;
+	margin-top: -19px;
+}
+.lists {
+	padding: 0 18px;
+	overflow: auto;
+	height: 100%;
+}
+.entryList{
+	padding: 0 90px 0 0;
+}
+.personelList{
+	padding: 0 73px 0 10px;
+}
+.lists table {
+	width: 100%;
+	padding-top: 15px;
+	
+}
+
+.lists>table>td {
+	width: 50%;
+	height: 76px;
+	margin-top: 5px;
+	box-sizing: border-box;
+	position: relative;
+	vertical-align: top;
+}
+.lists table td{
+	position: relative;
+}
+.lists table td>em {
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	width: 120px;
+	font-size: 14px;
+    text-align: right;
+}
+
+.lists table td>p,.affiches {
+	display: block;
+	min-height: 38px;
+	line-height: 30px;
+	padding-left: 126px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+p.radio_label{
+	line-height: 86px !important;
+}
+.comList table td>p{
+	min-height: 76px;
+}
+.lists table td>p input[type="text"] {
+	float: left;
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+    margin-bottom: 15px;
+}
+
+.lists table td>p>em {
+	display: block;
+	width: 12px;
+	height: 10px;
+	/*margin: 15px 0;*/
+	background: url(../images/index/icons.png) no-repeat -353px -46px;
+	position: absolute;
+	top: 15px;
+	right: 6px;
+}
+
+.lists table td.textareas {
+	height: 80px;
+}
+
+.lists table td.textareas textarea {
+	width: 100%;
+	height: 80px;
+}
+.lists table td div.top_men{
+	margin-top: -25px;
+	
+}
+.lists table td div.top_men em{
+	float: left;
+	font-size: 14px;
+	width: 110px;
+	text-align: right;
+}
+.lists table td.active_list_wrap {
+	min-height: 40px;
+	height: auto;
+}
+.per_photo {
+	height: 80px;
+}
+.per_photo>i {
+	float: left;
+	width: 106px;
+	height: 106px;
+	margin: 0 14px 0 25px;
+	overflow: hidden;
+}
+.per_photo>i img {
+	width: 100%;
+}
+.per_photo label {
+	float: left;
+	font-size: 14px;
+	color: #000;
+	margin-top: 6px;
+	position: relative;
+}
+.per_photo label input[type="file"]{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 56px;
+	height: 20px;
+}
+.active_list {
+	display: block;
+	min-height: 40px;
+	padding-left: 110px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+.radio_btn label {
+	float: left;
+	margin-right: 60px;
+	vertical-align: middle;
+}
+.radio_btnper label{
+	margin-right: 40px !important;
+}
+.radio_btn label input[type="radio"] {
+	float: left;
+	margin: 10.5px 6px  10.5px 25px;
+}
+.radio_btn label dfn {
+	float: left;
+	line-height: 38px;
+}
+.radio_btn.radio_btn >em {
+	right: 76px;
+}
+.select_wrap {
+	display: block;
+    height: 38px;
+   /* min-height: 76px;*/
+    line-height: 38px;
+    padding-left: 120px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.select_memData,.select_w,.selectMins{
+	min-height: 76px;
+}
+.select_btn {
+	display: block;
+	width: 100%;
+	height: 38px;
+	border: 1px solid #d6d6d6;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+.select_btn select {
+	height: 30px;
+	width: 100%;
+}
+.select_btn >em {
+	display: block;
+	width: 30px;
+	height: 38px;
+	border:1px solid #d6d6d6;
+	border-left:none;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	box-sizing: border-box;
+	background:#fff url(../images/public/arrow_icon.png) no-repeat center;
+	position: absolute;
+	top:0;
+	right: 20px;
+}
+
+.pictures {
+	height: 38px;
+}
+.pictures>i {
+	float: left;
+	width: 130px;
+	height: 70px;
+	margin: 0 14px 0 0px;
+	overflow: hidden;
+}
+.pictures>i img {
+	width: 100%;
+}
+.pictures label {
+	float: left;
+	font-size: 14px;
+	color: #000;
+	margin-top: 6px;
+	position: relative;
+}
+.pictures label input[type="file"]{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 56px;
+	height: 20px;
+}
+.texts {
+	display: block;
+	padding-left: 120px;
+	padding-right: 20px;
+   /* height: 108px;*/
+}
+.texts textarea {
+	width: 100%;
+	height: 74px;
+	border-radius: 6px;
+}
+.active_list p {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.active_list p input[type="text"] {
+	float: left;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+
+.active_list p em {
+	display: block;
+	width: 12px;
+	height: 10px;
+	margin: 15px 0;
+	background: url(../../images/index/icons.png) no-repeat -353px -46px;
+	position: absolute;
+	top: 0;
+	right: -14px;
+}
+.search_l ul li span {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+}
+.select_wrap1{
+	height: 35px;
+    border: #D6D6D6 1px solid;
+    border-radius: 4px;
+}
+.select_wrap1 select {
+    width: 100%;
+    line-height: 33px;
+    height: 33px;
+    padding: 0 4px;
+    font-size: 12px;
+}
+/*=====================提示样式=====================================*/
+.Validform_checktip{margin-left:0;}
+.info{
+	    border: 1px solid #e0d08e;
+    padding: 2px 20px 2px 5px;
+    color: #ff0000;
+    position: absolute;
+    display: none;
+    line-height: 24px;
+    background: #fef7db;
+    box-sizing: border-box;
+    min-height: 24px;
+    z-index: 1;
+    margin-left: -40px
+}
+.dec {
+    bottom: -8px;
+    display: block;
+    height: 8px;
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    width: 17px;
+    top:-8px;
+}
+.dec s {
+    font-family: simsun;
+    font-size: 16px;
+    height: 19px;
+    left: 0;
+    line-height: 21px;
+    position: absolute;
+    text-decoration: none;
+        top: -2px;
+    width: 17px;
+}
+.dec .dec1 {
+        color: #e0d08e;
+}
+.dec .dec2 {
+       color: #fef7db;
+    top: 0px;
+}
+/*图片上传样式*/
+/*ul.img_com{
+	width: 800px;
+}*/
+.lists table td.single_pic {
+	height: 80px;
+}
+.lists table td.single_pic em {
+	line-height: 80px;
+}
+.pic_wrap {
+	display: block;
+	padding-left: 110px;
+	min-height: 80px;
+}
+.img_list {
+	float: left;
+	min-width: 80px;
+	margin-left: 10px;
+}
+.img_list span {
+	float: left;
+	/* min-width: 80px; */
+	/* max-width: 300px; */
+	/* min-height: 80px; */
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	position: relative;
+}
+.img_nursing span{
+	width: 135px;
+	height: 80px;
+}
+.img_List2 span{
+	margin: 0;
+}
+.img_list span i {
+	display: block;
+	/* min-height: 80px; */
+	width: 100%;
+	height: 80px;
+}
+.img_list span i img {
+	width: 100%;
+	height: 100%;
+}
+.img_list span b {
+	background: url(../images/index/icons.png) no-repeat;
+	background-position: -378px -169px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	cursor: pointer;
+	width: 18px;
+	height: 18px;
+}
+/*.img_list span b:hover {
+	background: url(../images/index/icons.png) no-repeat;
+	background-position: -378px -169px;
+}*/
+.pic_wrap label {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin: 10px 0;
+	border: 2px solid #eaeaea;
+	box-sizing: border-box;
+	font-size: 60px;
+	color: #ccc;
+	text-align: center;
+	line-height: 68px;
+	position: relative;
+}
+.pic_label label{
+	margin: 0 0 32px 0;
+}
+.pic_wrap input[type="file"] {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.advice{
+	float: left;
+	color: #FF0000;
+	font-size: 12px;
+	margin-top: -5px;
+	margin-left: 10px;
+}
+/*=============================验证提示样式======================================*/
+
+.error {
+	font-size: 12px;
+	color: #666;
+	height: 20px;
+	line-height: 20px;
+}
+
+.submit_btn {
+	height: 40px;
+	margin: 20px 0;
+	text-align: center;
+}
+.submit_btn span {
+	float: right;
+	padding-right: 20px;
+}
+.submit_btn a {
+	float: left;
+	padding: 0 20px;
+	height: 36px;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+	background: #33bce7;
+	margin-left: 33px;
+}
+.submit_btn a#cancel {
+	background: #e1e1e1;
+}
+.lists table tr.textareas_good td em,.lists table tr.textareas_good td textarea{
+	margin-top: 40px !important;
+}
+.good_btn{
+	margin-top: 70px;
+}
+.lists table tr td.notecom{
+	width: 100%;
+	font-size: 14px;
+	color: #FF0000;
+	line-height: 60px;
+	text-indent: 8em;
+}
+/*老人档案新增*/
+.oldArch_list div.list_man{
+	margin: 0px 0 18px 0;
+	position: relative;
+	width:100%;
+	display: inline-block;
+}
+.oldArch_list div p.infor{
+	width: 98px;
+	height: 40px;
+	background:#33bce7;
+	position: absolute;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: center;
+	color: #FFFFFF;
+	left: 26px;
+	top: -22px;
+}
+.oldArch_list table{
+	padding-top: 35px;
+	display: block;
+}
+.list_man table tr{
+	padding: 0 20px;
+}
+.list_man table tr td{
+	width: 33%;
+	height: 50px;
+	/*padding: 10px 0;*/
+	position: relative;
+}
+.list_man table tr td>em{
+	width: 85px;
+	line-height: 30px;
+}
+.list_man table td>p{
+	padding-left: 85px;
+	font-size: 14px;
+}
+.radio_label label{
+	float: left;
+    margin-right: 35px;
+    vertical-align: middle;
+    margin-top: -22px;
+}
+.radio_label em {
+    right: 24px;
+}
+.per_informs>i{
+	width:86px;
+	margin: 0 14px 0 15px;
+}
+.per_informs label{
+	margin-top: 67px;
+}
+.select_old{
+	padding-left: 85px;
+}
+.guanlian{
+	width:96%;
+	height: auto;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 1%;
+	border: #c9c9c9 dashed 1px;
+}
+.guanlian1{
+	width:30%;
+	float:left;	
+	padding: 10px 0px 5px 0px;
+}
+.guanlian1 span{
+	width: 88px;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	line-height: 38px;
+}
+.guanlian1 input{
+    width: 62%;
+    height: 38px;
+    line-height: 38px;
+}
+.guanlian2,.delgl{
+	width: 19px;
+	float: left;
+	margin-top:20px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.guanlian1 p{
+	line-height: 40px;
+	font-size: 14px;
+}
+p.textar textarea{
+	width: 100%;
+	height: 65px;
+}
+.single_pic em{
+	margin-left: 48px;
+	line-height: 75px;
+	float: left;
+}
+.single_js em{
+	margin-left: 35px;
+}
+.pic_wraps{
+	padding-top: 20px;
+}
+.guanlian1 span.gx{
+	width: 70px;
+	font-size: 14px;
+    text-align: center;
+    float: left;
+}
+.select_guanlian{
+	padding-left: 71px;
+}
+.select_min{
+	min-height: 76px;
+}
+.reset_per{
+	float: left;
+	position: absolute;
+	right: -50px;
+	bottom: 42px;
+	background: #33BCE7;
+	border-radius: 5px;
+	width: 58px;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	font-size: 13px;
+}
+.SameASabove{
+	position: absolute;
+    top: 42%;
+    right: 20px;
+}
+.SameAS{
+	position: absolute;
+	top: 34%;
+	right: 20px;
+}
+.banerSel{
+	float: left;
+	height: 40px;
+	width: 75%;
+}
+.banerSel select{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #d6d6d6;
+}

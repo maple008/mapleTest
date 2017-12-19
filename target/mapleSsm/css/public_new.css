@@ -1,0 +1,381 @@
+em,i{
+	font-style: normal;
+}
+ul, ol{
+	list-style-type: none;
+}
+
+.posit_edit_t,
+.permissions,
+.add_page_icon {
+	width: 100%;
+	padding: 18px 18px 0;
+	border: 1px solid #e8e8e8;
+	box-sizing: border-box;
+	position: relative;
+}
+.post_edit_p {
+	border: none;
+}
+.posit_edit_t ul {
+	overflow: hidden;
+}
+
+.posit_edit_t ul li {
+	min-height: 54px;
+	padding: 0 20px 18px 94px;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+
+.posit_edit_t ul li em {
+	font-size: 14px;
+	float: left;
+	width: 94px;
+	line-height: 36px;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.posit_edit_t ul li span {
+	float: left;
+	font-size: 14px;
+	height: 14px;
+	line-height: 14px;
+	margin-right: 10px;
+	padding: 11px 0;
+}
+.posit_edit_t ul li span input[type="checkbox"] {
+	float: left;
+	margin: 0 0 0 5px;
+}
+.posit_edit_t input[type="text"],
+select {
+	float: left;
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 0;
+	border: 1px solid #d6d6d6;
+	outline: none;
+}
+.leave_app select{
+	float: left;
+	width: 50%;
+	height: 32px;
+}
+.posit_edit_t li.sup_contact input[type="text"]{
+	float: left;
+	width: 42%;
+}
+.posit_edit_t li.sup_contact i{
+	float: left;
+	margin: 0 4%;
+	line-height: 36px;
+}
+.posit_edit_t li.sup_conts input[type="text"]{
+	width: 99%;
+}
+.add_supp{
+	width: 100%;
+}
+.add_supp ul {
+	width: 100%;
+	padding-right: 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+.add_line{
+	position: absolute;
+	right: 28px;
+	top: 16px;
+	width: 4%;
+	cursor: pointer;
+	height: 54px;
+	border: 1px solid #d8d8d8;
+	border-left: none;
+	
+}
+.add_line > i {
+	float: left;
+	width: 23px;
+	height: 30px;
+	    margin-left: 16px;
+    margin-top: 10px;
+	background: #fff url("../../images/public/add_jhnr.png")no-repeat center;
+	
+}
+.add_line > i.curr {
+	margin-top: -10px;
+}
+.add_line em {
+	display: block;
+	width: 23px;
+	height: 30px;
+	margin-left: 16px;
+    margin-top: 32px;
+	background: #fff url("../../images/public/del_jhnr.png")no-repeat center;
+	display: none;
+}
+
+.vail_star {
+	width: 10px;
+	height: 36px;
+	background: url("../../images/public/vali_icon1.png") no-repeat center;
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+.lists_n {
+	overflow: hidden;
+	margin: 20px 0;
+	padding: 0 20px;
+}
+.lists_n li {
+	width: 100%;
+	padding: 0 20px 18px 94px;
+	box-sizing: border-box;
+	height: 54px;
+	overflow:hidden;
+	position: relative;
+}
+.lists_n li em {
+	font-size: 14px;
+	float: left;
+	width: 94px;
+	line-height: 36px;
+	position: absolute;
+	top:50%;
+	left: 0;
+	margin-top: -27px;
+}
+.lists_n li.time_phase input[type="text"]{
+	float: left;
+	width: 38%;
+	margin-top: 10px;
+}
+.lists_n li.time_phase i{
+	float: left;
+	margin: 9px 20px;
+}
+.lists_n ul li span{
+	float: left;
+	color: #383838;
+	font-size: 14px;
+	width: 124px;
+	height: 14px;
+	line-height: 14px;
+	padding: 10px 0;
+}
+.lists_n li input[type="text"],.posit_edit_t ul li.select select {
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 0;
+	border: 1px solid #d6d6d6;
+	font-size: 14px;
+	color: #333;
+	outline: none;
+}
+.lists_n li input[type="password"] {
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 0;
+	border: 1px solid #d6d6d6;
+	font-size: 14px;
+	color: #333;
+	outline: none;
+}
+.lists_n li.fj span {
+	float: left;
+	width: 90px;
+	height: 27px;
+	background: url("../../images/eprise_ed/upload.png") no-repeat left center;
+	padding-left: 25px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 27px;
+	overflow: hidden;
+	position: relative;
+}
+.lists_n li.fj span input[type="file"] {
+	opacity: 0;
+	filter: alpaha(opacity=0);
+	position: absolute;
+	height: 27px;
+	width: 90px;
+	left: 0;
+	top:0;
+}
+.fj p{
+	color:#36c3d1;
+	font-size: 13px;
+	cursor: pointer;
+}
+.lists_n li.times {
+	float: left;
+	width: 50%;
+}
+.lists_n li.time_phase{
+	float: left;
+}
+.lists_n li.bdedit {
+	height: 270px;
+}
+.lists_n_detail li input[type="text"] {
+	border: none;
+}
+.lists_n_detail li.bdedit_c >div {
+	line-height: 36px;
+	font-size: 14px;
+	color: #333;
+}
+.lists_n_detail li.fj_down span {
+	float: left;
+	margin-right: 40px;
+}
+.lists_n_detail li.fj_down span a {
+	display: block;
+	color: #213ef0;
+	font-size: 14px;
+}
+.lists_n li.depart_descrip {
+	height: 118px;
+}
+.lists_n li.advice {
+	height: 90px;
+}
+.lists_n li.advice em {
+	line-height: 72px;
+	margin-top: -45px;
+}
+.lists_n li.depart_descrip textarea{
+	width:100% ;
+	height: 100px;
+}
+/*员工心得点击下载*/
+.tips_details{
+	width: 114px;
+	height: 129px;
+	position: absolute;
+	z-index: 99;
+	left: 110px;
+	top: 387px;
+	padding: 23px 8px 0px 0px;
+	display: none;
+	box-sizing: border-box;
+	background: url("../../images/eprise_ed/cp_sta1.png") no-repeat;
+}
+.tips_download{
+	width: 100%;
+	height: 30px;
+	font-size: 16px;
+	color: #666666;
+	line-height: 30px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.tips_download:hover,.tips_preview:hover,.tips_del:hover{
+	background: #F1F1F1;
+	cursor: pointer;
+}
+.office_supp{
+	width: 100%;
+	height: 40px;
+}
+.office_supp li{
+	float: left;
+}
+.office_supp li i,.office_supp li p{
+	float:left;
+	margin: 0 23px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #333333;
+}
+.office_supp li input[type="text"]{
+	float: left;
+	width: 130px !important;
+}
+.office_add,.office_del{
+	width: 23px;
+    float: left;
+    margin-left:28px;
+    cursor: pointer;
+    background: url(../../images/public/add_jhnr.png) no-repeat;
+    height: 28px;
+}
+.office_del {
+	background: url("../../images/public/del_jhnr.png") no-repeat;
+	margin-left: 10px;
+	display: none;
+}
+.leave{
+	width: 50%;
+	margin: initial;
+	margin-top: 10px;
+}
+.lists_n li span{
+	width: 100%;
+	display: inline-block;
+	height: 36px;
+	font-size: 14px;
+	line-height: 36px;
+}
+.lists_n li span .apply_opinion{
+	width: 80px;
+	float: left;
+}
+.lists_n li span .apply_opinion input[type="radio"]{
+	margin: 0 10px;
+}
+.lists_n li span .app_turn{
+	width: 45px;
+	float: left;
+}
+.lists_n li span .options select{
+	width: 150px;
+	float: left;
+}
+.lists_n li span .Continue{
+	width: 90px;
+	float: left;
+	text-align: center;
+}
+.apply_Nopinion{
+	width: 100%;
+	float: left;
+	height: 36px;
+	font-size: 14px;
+	line-height: 36px;
+}
+.apply_Nopinion input[type="radio"]{
+	margin: 0 10px;
+}
+.lists_n li.fj label{
+	float: left;
+	width: 90px;
+	height: 26px;
+	padding-left: 24px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #FFFFFF;
+	background:#00b4cb url("../../../images/work_mana/fujian.png") no-repeat 7px center;
+	border-radius: 4px;
+	box-sizing: border-box;
+	position: relative;
+	margin: 5px 0;
+	overflow: hidden;
+	cursor: pointer;
+}
+.lists_n li.fj input[type="file"]{
+	width: 90px;
+	height: 26px;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}

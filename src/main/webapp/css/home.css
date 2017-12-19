@@ -1,0 +1,213 @@
+body{margin: 0; padding: 0;}
+.menu_nav {
+	overflow: hidden;
+}
+.menu_nav >ul {
+	padding: 20px 0;
+}
+.menu_nav >ul li {
+	float: left;
+	width: 25%;
+	padding: 2% 1%;
+	box-sizing: border-box;
+}
+.menu_nav >ul li a {
+	display: block;
+	background: #fff;
+	background: #fff;
+	padding-left: 18%;
+	box-shadow: 7px 7px 7px #cdcfd1;
+	position: relative;
+}
+.menu_nav >ul li a i {
+    float: left;
+    width: 40%;
+    max-width:82px ;
+    min-width:42px;
+    height: 70px;
+   position: absolute;
+   top:50%;
+   margin-top: -35px;
+    box-sizing: border-box;
+}
+.menu_nav >ul  li a em {
+	line-height: 146px;
+    font-size: 18px;
+    color: #333;
+    display: block;
+    padding-left: 40%;
+}
+/*.menu_nav >ul li.menu_nav1 a i {
+	background: url(../images/index/icons.png) no-repeat -991px -14px;
+}
+.menu_nav >ul li.menu_nav2 a i {
+	background: url(../images/index/icons.png) no-repeat -1104px -8px;
+}
+.menu_nav >ul li.menu_nav3 a i {
+	background: url(../images/index/icons.png) no-repeat -1219px -14px;
+}
+.menu_nav >ul li.menu_nav4 a i {
+	background: url(../images/index/icons.png) no-repeat -1326px -14px;
+}
+.menu_nav >ul li.menu_nav5 a i {
+	background: url(../images/index/icons.png) no-repeat -991px -112px;
+}
+.menu_nav >ul li.menu_nav6 a i {
+	background: url(../images/index/icons.png) no-repeat -1104px -109px;
+}
+.menu_nav >ul li.menu_nav7 a i {
+	background: url(../images/index/icons.png) no-repeat -1219px -109px;
+}
+.menu_nav >ul li.menu_nav8 a i {
+	background: url(../images/index/icons.png) no-repeat -1326px -112px;
+}
+.menu_nav >ul li.menu_nav9 a i {
+	background: url(../images/index/icons.png) no-repeat -991px -222px;
+}
+.menu_nav >ul li.menu_nav10 a i {
+	background: url(../images/index/icons.png) no-repeat -1104px -222px;
+}
+.menu_nav >ul li.menu_nav11 a i {
+	background: url(../images/index/icons.png) no-repeat -1219px -222px;
+}
+.menu_nav >ul li.menu_nav12 a i {
+	background: url(../images/index/icons.png) no-repeat -1326px -222px;
+}
+.menu_nav >ul li.menu_nav13 a i {
+	background: url(../images/index/icons.png) no-repeat -991px -346px;
+}
+.menu_nav >ul li.menu_nav14 a i {
+	background: url(../images/index/icons.png) no-repeat -1104px -341px;
+}
+.menu_nav >ul li.menu_nav15 a i {
+	background: url(../images/index/icons.png) no-repeat -1219px -346px;
+}
+.menu_nav >ul li.menu_nav16 a i {
+	background: url(../images/index/icons.png) no-repeat -1326px -346px;
+}*/
+.charts {
+	height: 334px;
+	padding: 0 35px;
+}
+.charts_wrap {
+	border: 1px solid #e6e6e6;
+	height: 334px;
+	background: #fff;
+}
+.charts_wrap >div {
+	height: 100%;
+	width: 100%;
+	border-top: 3px solid #33bce7;
+}
+/*登录页面*/
+.login{
+	width: 100%;
+	height: 900px;
+	background: url(../images/loginimg.png) no-repeat;
+	background-size: 100% 100%;
+}
+.loginSum{
+	width: 70%;
+	height: 100%;
+	margin-left: 15%;
+	display: inline-block;
+}
+.loginLeft{
+	width: 60%;
+	height: auto;
+	display: block;
+	float: left;
+	margin-top: 200px;
+}
+.loginLeft p{
+	width: 147px;
+	height: 97px;
+	margin-left: 5%;
+}
+.loginLeft p img{
+	width: 100%;
+}
+.loginLeft h2{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	font-weight: 100;
+	color: #fff;
+}
+.loginLeft em{
+	width: 70%;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-indent: 2em;
+	line-height: 25px;
+	display: block;
+}
+
+.loginRight{
+	width: 28%;
+	height: auto;
+	display: block;
+	float: right;
+	margin-top: 200px;
+}
+.R_login{
+	width: 288px;
+	height: 383px;
+	background: #000000;
+	background-color: rgba(0,0,0,0.5);
+}
+.R_login h1{
+	width: 100%;
+	font-size: 48px;
+	height: 140px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 140px;
+	font-weight: 100;
+}
+.R_login ul{
+	width: 80%;
+	margin: 0 auto;
+}
+.R_login ul li{
+	width: 100%;
+	height: 34px;
+	line-height: 34px;
+	color: #FFFFFF;
+	font-size: 15px;
+	border-radius: 8px;
+}
+.R_login ul li.tinput{
+	margin: 20px 0;
+}
+.R_login ul li.validation input{
+	width: 55%;
+	float: left;
+}
+.R_login ul li input{
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	background-color: rgba(0,0,0,0.5);
+}
+.codePic{
+	width: 35%;
+	height: 34px;
+	float: right;
+	cursor: pointer;
+}
+.codePic img{
+	width: 100%;
+}
+#login{
+	width:62px;
+	height: 34px;
+	border-radius: 10px;
+	background: #f5cf1f;
+	color: #030000;
+	font-size: 19px;
+	display: block;
+	text-align: center;
+	margin: 30px auto;
+	cursor: pointer;
+}

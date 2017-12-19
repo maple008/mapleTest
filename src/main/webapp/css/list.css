@@ -1,0 +1,37 @@
+body{
+	background: #0C1824;
+}
+.content{
+	width: 80%;
+	margin:0 auto;
+	border:1px solid #787C84;
+	border-top: 0;
+	margin-top: 1%;
+}
+table{
+	width: 100%;
+}
+thead tr{
+	width: 100%;
+}
+thead tr th{
+	width: 25%;
+	color: #33bce7;
+	border-top: 4px solid #33bce7;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+}
+table tbody td{
+	text-align: center;
+	color: #fff;
+	border-top: 1px solid #485159;
+	border-bottom: 1px solid #485159;
+}
+.img{
+	width: 36%;
+	margin: 5px 0 0 0;
+}
+.edit{
+	width: 10%;
+}

@@ -1,0 +1,241 @@
+.wrap {
+	padding: 20px 2%;
+}
+
+.wrap ul {
+	overflow: hidden;
+}
+
+.wrap ul li {
+	min-height: 40px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	padding: 14px 1%;
+}
+
+.wrap ul li>span {
+	float: left;
+	font-size: 12px;
+	color: #333;
+	width: 10%;
+}
+
+.wrap ul li span em {
+	display: block;
+	height: 36px;
+}
+
+.wrap ul li span em i {
+	float: left;
+	width: 36px;
+	height: 36px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.wrap ul li span em i img {
+	width: 100%;
+}
+
+.wrap ul li span em dfn {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	white-space: nowrap;
+	width: 100px;
+	overflow: hidden;
+}
+
+.wrap ul li span dfn {
+	display: block;
+	line-height: 26px;
+}
+
+.comm_con {
+	display: block;
+	padding-left: 10%;
+}
+
+.lel_star {
+	height: 18px;
+}
+
+.comm_con>p {
+	line-height: 1.5;
+	padding: 10px 0;
+	font-size: 13px;
+}
+
+.comm_show {
+	overflow: hidden;
+}
+
+.pic_c {
+	overflow: hidden;
+}
+
+.pic_c b {
+	float: left;
+	width: 52px;
+	height: 52px;
+	margin-right: 10px;
+	padding: 1px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.pic_c b.curr {
+	padding: 0;
+	border: 2px solid red;
+}
+
+.big_wrap {
+	float: left;
+	margin-top: 20px;
+	position: relative;
+}
+
+.big_wrap>span {
+	display: block;
+	width: 100px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.big_wrap>span.prev {
+	cursor: url(../images/public/cursor_icon2.png), auto;
+	left: 0;
+}
+
+.big_wrap>span.next {
+	cursor: url(../images/public/cursor_icon1.png), auto;
+	right: 0;
+	transform-origin: left;
+}
+
+.big_piv img {
+	cursor: zoom-out;
+	cursor: -moz-zoom-out;
+	cursor: -ms-zoom-out;
+	cursor: -webkit-zoom-out;
+}
+.hf_area {
+	width: 100%;
+	margin: 10px 0;
+	box-sizing: border-box;
+}
+.hf_area textarea  {
+	width: 100%;
+	height: 100px;
+	line-height: 1.5;
+	font-size: 12px;
+	color: #333;
+}
+.hf_area textarea span {
+	display: none;
+	width: 100%;
+	line-height: 1.5;
+	font-size: 12px;
+	color: #333;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+.spxx {
+	overflow: hidden;
+}
+
+.spxx>p {
+	float: left;
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	color: #888;
+}
+
+.spxx>p b,
+.spxx>p em {
+	float: left;
+	margin-right: 10px;
+}
+
+.spxx>span {
+	float: right;
+}
+
+.spxx>span a {
+	float: left;
+	margin: 0 10px;
+}
+
+.spxx>span a.zan {
+	height: 16px;
+	line-height: 16px;
+	padding-left: 20px;
+	background: url(../images/public/__sprite.png) no-repeat top left;
+}
+
+.spxx>span a.zan:hover,
+.spxx>span a.zan.curr {
+	background-position: bottom left;
+}
+
+.spxx>span a.lx,.spxx>span a.lxs {
+	height: 16px;
+	line-height: 16px;
+	padding-left: 20px;
+	background: url(../images/public/__sprite.png) no-repeat -77px top;
+}
+.spxx>span a.lxs:hover {
+	color: #888;
+}
+.spxx>span a:hover {
+	color: #e4393c;
+}
+
+.spxx>span a.lx:hover,
+.spxx>span a.lx.curr {
+	color: #e4393c;
+	background-position: -77px bottom;
+}
+
+.big_wrap>em {
+	display: block;
+	color: #fff;
+	padding: 0 6px;
+	padding-left: 26px;
+	position: absolute;
+	top: 16px;
+	height: 26px;
+	line-height: 26px;
+	cursor: pointer;
+}
+
+.big_wrap>em.rotateL {
+	background: #333 url(../images/public/rotate_icon2.png) no-repeat 4px center;
+	left:10px;
+}
+
+.big_wrap>em.rotateR {
+	background: #333 url(../images/public/rotate_icon.png) no-repeat 4px center;
+	left:80px;
+}
+.pages {
+    margin: 30px 0;
+    text-align: center;
+}
+.pages>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.totals {
+    height: 38px;
+    line-height: 38px;
+    padding: 0 10px;
+    border: 1px solid #e6e6e6;
+    color: #000;
+    background: #fff;
+    margin-top: 15px;
+    box-sizing: border-box;
+}

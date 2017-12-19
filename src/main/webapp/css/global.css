@@ -1,0 +1,180 @@
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+dl,
+dd,
+ol,
+ul,
+input {
+	padding: 0;
+	margin: 0 auto;
+}
+body,html {
+	height: 100%;
+}
+body {
+	font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #888;
+}
+
+em,
+i,
+dfn,
+b,
+strong {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+img {
+	border: none;
+}
+
+input[type="text"],input[type="password"],input[type="tel"],input[type="number"],select {
+	font-size: 15px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+	vertical-align: middle;
+}
+
+input[disabled="disabled"] {
+	background: #fff;
+}
+
+select {
+	font-size: 14px;
+	color: #333;
+	border: none;
+}
+
+option {
+	font-size: 14px;
+	color: #333;
+}
+
+select option {
+	height: 20px;
+	line-height: 20px;
+	overflow: auto;
+}
+
+select option:selection {
+	background: #f3f3f3;
+}
+
+textarea {
+	font-size: 14px;
+	color: #333;
+	text-indent: 0px;
+	line-height: 26px;
+	padding: 5px;
+	resize: none;
+	outline: none;
+	border: 1px solid #d6d6d6;
+	box-sizing: border-box;
+}
+input[type="radio"],input[type="checkbox"] {
+	/*height: 16px;*/
+	width: 16px;
+	margin: 0;
+	border: none;
+	outline: 0!important;
+    background-color: transparent;
+    margin-right:8px;
+	position: relative;
+}
+input[type="radio"] {
+	width: 17px;
+	height: 17px;
+}
+input[type="radio"]::before {
+	content: "";
+	display: block;
+	height:17px;
+	width: 17px;
+	/*background:#fff url("../images/index/icons.png") no-repeat -353px -144px;*/
+	position: absolute;
+	top:-1px;
+	left:-1px;
+}
+input[type="radio"]:checked::before {
+	background-position: -378px -143px;
+}
+input[type="checkbox"]::before {
+	content: "";
+	display: block;
+	height:16px;
+	width: 16px;
+	background:#fff url("../images/index/icons.png") no-repeat -353px -109px;
+	position: absolute;
+	top:-1px;
+	left:-1px;
+}
+input[type="checkbox"]:checked::before{
+	background:#fff url("../images/index/icons.png") no-repeat -371px -109px;
+}
+.hidden{
+	display: none;
+}
+.submit_btn {
+	height: 40px;
+	margin: 20px 0;
+	text-align: center;
+}
+.submit_btn span {
+	float: right;
+	padding-right: 20px;
+}
+.submit_btn a {
+	float: left;
+	padding: 0 20px;
+	height: 36px;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+	background: #33bce7;
+	margin-left: 33px;
+}
+/*.submit_btn a#cancel {
+	background: #e1e1e1;
+}*/
+.submit_btn a#generations {
+	background: #FF0000;
+	cursor: pointer;
+}
+.ConfirmReceipt{
+	float: right;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background:#33BCE7;
+	border-radius: 5px;
+	color: #FFFFFF;
+	margin-top: 15px;
+	font-size: 14px;
+	cursor: pointer;
+}

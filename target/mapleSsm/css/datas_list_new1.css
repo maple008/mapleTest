@@ -1,0 +1,463 @@
+form {
+	height: 100%;
+}
+.w_input em {
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	color: #999;
+	position: absolute;
+	top:50%;
+	left: 10px;
+	margin-top: -19px;
+}
+.lists {
+	padding: 0 18px;
+	overflow: auto;
+	height: 100%;
+}
+
+.lists table {
+	width: 100%;
+	padding-top: 15px;
+	
+}
+
+.lists>table>td {
+	width: 50%;
+	height: 76px;
+	margin-top: 5px;
+	box-sizing: border-box;
+	position: relative;
+	    vertical-align: top;
+}
+.lists table td>em {
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	width: 120px;
+	font-size: 14px;
+    text-align: right;
+}
+
+.lists table td>p,.affiches {
+	display: block;
+	min-height: 38px;
+	line-height: 38px;
+	padding-left: 120px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.lists table td>p input[type="text"] {
+	float: left;
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+}
+
+.lists table td>p>em {
+	display: block;
+	width: 12px;
+	height: 10px;
+	/*margin: 15px 0;*/
+	background: url(../images/index/icons.png) no-repeat -353px -46px;
+	position: absolute;
+	top: 0;
+	right: 6px;
+}
+
+.lists table td.textareas {
+	height: 80px;
+}
+
+.lists table td.textareas textarea {
+	width: 100%;
+	height: 80px;
+}
+
+.lists table td.active_list_wrap {
+	min-height: 40px;
+	height: auto;
+}
+.per_photo {
+	height: 80px;
+}
+.per_photo>i {
+	float: left;
+	width: 106px;
+	height: 106px;
+	margin: 0 14px 0 25px;
+	overflow: hidden;
+}
+.per_photo>i img {
+	width: 100%;
+}
+.per_photo label {
+	float: left;
+	font-size: 14px;
+	color: #000;
+	margin-top: 6px;
+	position: relative;
+}
+.per_photo label input[type="file"]{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 56px;
+	height: 20px;
+}
+.active_list {
+	display: block;
+	min-height: 40px;
+	padding-left: 110px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+.radio_btn label {
+	float: left;
+	margin-right: 60px;
+	vertical-align: middle;
+}
+.radio_btnper label{
+	margin-right: 40px !important;
+}
+.radio_btn label input[type="radio"] {
+	float: left;
+	margin: 10.5px 6px  10.5px 25px;
+}
+.radio_btn label dfn {
+	float: left;
+	line-height: 38px;
+}
+.radio_btn.radio_btn >em {
+	right: 76px;
+}
+.select_wrap {
+	display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 120px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.select_btn {
+	display: block;
+	width: 100%;
+	height: 38px;
+	border: 1px solid #d6d6d6;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+.select_btn select {
+	height: 30px;
+	width: 100%;
+}
+.select_btn >em {
+	display: block;
+	width: 30px;
+	height: 38px;
+	border:1px solid #d6d6d6;
+	border-left:none;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	box-sizing: border-box;
+	background:#fff url(../images/public/arrow_icon.png) no-repeat center;
+	position: absolute;
+	top:0;
+	right: 20px;
+}
+
+.pictures {
+	height: 38px;
+}
+.pictures>i {
+	float: left;
+	width: 130px;
+	height: 70px;
+	margin: 0 14px 0 25px;
+	overflow: hidden;
+}
+.pictures>i img {
+	width: 100%;
+}
+.pictures label {
+	float: left;
+	font-size: 14px;
+	color: #000;
+	margin-top: 6px;
+	position: relative;
+}
+.pictures label input[type="file"]{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 56px;
+	height: 20px;
+}
+.texts {
+	display: block;
+	padding-left: 120px;
+	padding-right: 20px;
+    height: 108px;
+}
+.texts textarea {
+	width: 100%;
+	height: 74px;
+	border-radius: 6px;
+}
+.active_list p {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.active_list p input[type="text"] {
+	float: left;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+
+.active_list p em {
+	display: block;
+	width: 12px;
+	height: 10px;
+	margin: 15px 0;
+	background: url(../../images/index/icons.png) no-repeat -353px -46px;
+	position: absolute;
+	top: 0;
+	right: -14px;
+}
+/*=====================提示样式=====================================*/
+.Validform_checktip{margin-left:0;}
+.info{
+	    border: 1px solid #e0d08e;
+    padding: 2px 20px 2px 5px;
+    color: #ff0000;
+    position: absolute;
+    display: none;
+    line-height: 24px;
+    background: #fef7db;
+    box-sizing: border-box;
+    min-height: 24px;
+    z-index: 1;
+}
+.dec {
+    bottom: -8px;
+    display: block;
+    height: 8px;
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    width: 17px;
+    top:-8px;
+}
+.dec s {
+    font-family: simsun;
+    font-size: 16px;
+    height: 19px;
+    left: 0;
+    line-height: 21px;
+    position: absolute;
+    text-decoration: none;
+        top: -2px;
+    width: 17px;
+}
+.dec .dec1 {
+        color: #e0d08e;
+}
+.dec .dec2 {
+       color: #fef7db;
+    top: 0px;
+}
+/*图片上传样式*/
+.lists table td.single_pic {
+	height: 80px;
+}
+.lists table td.single_pic em {
+	line-height: 80px;
+}
+.pic_wrap {
+	display: block;
+	padding-left: 110px;
+	min-height: 80px;
+}
+.img_list {
+	float: left;
+	min-width: 80px;
+	margin-left: 10px;
+}
+.img_list span {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-left: 10px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	position: relative;
+}
+.img_list span i {
+	display: block;
+	width: 80px;
+	height: 80px;
+}
+.img_list span i img {
+	width: 100%;
+}
+.img_list span b {
+	width: 18px;
+	height: 18px;
+	background: url(../../images/index/icons.png) no-repeat -392px -83px;
+	position: absolute;
+	top:0;
+	right: 0;
+	cursor: pointer;
+}
+.img_list span b:hover {
+	background-position: -392px -61px;
+}
+.pic_wrap label {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 10px 0;
+	border: 2px solid #eaeaea;
+	box-sizing: border-box;
+	font-size: 60px;
+	color: #ccc;
+	text-align: center;
+	line-height: 44px;
+	position: relative;
+}
+.pic_wrap input[type="file"] {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+/*=============================验证提示样式======================================*/
+
+.error {
+	font-size: 12px;
+	color: #666;
+	height: 20px;
+	line-height: 20px;
+}
+
+.submit_btn {
+	height: 40px;
+	margin: 20px 0;
+	text-align: center;
+}
+.submit_btn span {
+	float: right;
+	padding-right: 20px;
+}
+.submit_btn a {
+	float: left;
+	padding: 0 20px;
+	height: 36px;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+	background: #33bce7;
+	margin-left: 33px;
+}
+.submit_btn a#cancel {
+	background: #e1e1e1;
+}
+.lists table tr.textareas_good td em,.lists table tr.textareas_good td textarea{
+	margin-top: 40px !important;
+}
+.good_btn{
+	margin-top: 70px;
+}
+.lists table tr td.notecom{
+	width: 100%;
+	font-size: 14px;
+	color: #FF0000;
+	line-height: 60px;
+	text-indent: 8em;
+}
+/*老人档案新增*/
+.oldArch_list div.list_man{
+	border: dashed 1px #33bce7;
+	margin: 36px 0 18px 0;
+	position: relative;
+}
+.oldArch_list div p.infor{
+	width: 98px;
+	height: 40px;
+	background:#33bce7;
+	position: absolute;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: center;
+	color: #FFFFFF;
+	left: 26px;
+	top: -22px;
+}
+.oldArch_list table{
+	padding-top: 35px;
+}
+.list_man table tr{
+	padding: 0 20px;
+}
+.list_man table tr td{
+	width: 33%;
+}
+.list_man table tr td>em{
+	width: 85px;
+	line-height: 30px;
+}
+.list_man table td>p{
+	padding-left: 85px;
+}
+.radio_label label{
+	float: left;
+    margin-right: 35px;
+    vertical-align: middle;
+}
+.radio_label em {
+    right: 24px;
+}
+.per_informs>i{
+	width:86px;
+	margin: 0 14px 0 15px;
+}
+.per_informs label{
+	margin-top: 67px;
+}
+.select_old{
+	padding-left: 85px;
+}
+tr.arch_tr{
+	/*padding-left: 15px;*/
+	height: auto;
+	display: inline-block;
+	border: dashed 1px #FF0000 !important;
+}
+.guanlian{
+	width:100%;
+}
+.guanlian1{
+	width:33%;
+	float:left;
+	
+}
